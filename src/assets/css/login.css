@@ -1,0 +1,90 @@
+body{
+    font-family: proxima Nova, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: url(./assets/images/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.login-panel{
+    top: 0px;
+margin-left: 800px;
+/* width: 566px; */
+height: 655px;
+background: #FAFAFA 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 48px #2C2C2C33;
+border-radius: 30px 0px 0px 30px;
+opacity: 1;
+}
+.panel-area{
+    margin-left: 110px;
+}
+.heading1{
+    margin-top: 205px; 
+   
+    font: Bold 28px/34px Proxima Nova;
+    letter-spacing: 0;
+    color: #2C2C2C;
+    position: absolute;
+    
+}
+.p-text{
+    margin-top: 255px; 
+    font-size:  11px;
+    letter-spacing: 0;
+    color: #B3B3B3;
+    position: absolute;
+   
+}
+.form-area{
+    margin-top: 330px;
+    position: absolute;
+}
+.label-clr{
+    color: #8E8E8E;
+}
+.form-control{
+    border: 1px solid #E1E1E1;
+    height: 32px;
+    width: 341px;
+}
+.clr-6e{
+color: #6E6E6E;
+}
+.m-l-149{
+    margin-left: 149px !important;
+}
+.btn-login{
+    background: #00A29D 0% 0% no-repeat padding-box;
+border-radius: 16px;
+width: 140px;
+height: 32px;
+padding: 0px !important;
+font-size: 11px;
+}
+.btn-login:hover{
+    width: 150px;
+    height: 35px; 
+    background: #00A29D;
+    color: #ffffff;
+}
+.white{
+    color: #ffffff;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-style:  Italic !important;
+    color: #8E8E8E !important;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font: Light Italic  Proxima Nova;
+    color: #8E8E8E !important;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font: Light Italic  Proxima Nova;
+    color: #8E8E8E !important;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font: Light Italic  Proxima Nova;
+    color: #8E8E8E !important;
+  }
